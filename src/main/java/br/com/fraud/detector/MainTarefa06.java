@@ -1,10 +1,4 @@
 package br.com.fraud.detector;
-
-import br.com.zenon.FraudAnalyzer;
-import br.com.zenon.Transaction;
-import br.com.zenon.TransactionIngestor;
-import br.com.zenon.TransactionType;
-
 import java.io.IOException;
 import java.util.List;
 
