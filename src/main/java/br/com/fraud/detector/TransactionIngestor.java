@@ -12,7 +12,7 @@ public class TransactionIngestor {
 
 
     /* public static final int FRAUD_LIMIT = 50_000;*/
-    public static final int FRAUD_LIMIT = 100_000;
+    public static final int FRAUD_LIMIT = 10_000;
 
     public List<Transaction> getTransactions(String file) throws IOException {
         Path path = Paths.get(file);

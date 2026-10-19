@@ -21,4 +21,10 @@ public class TransactionListRepository implements TransactionRepository {
                 .findFirst();
     }
 
+    @Override
+    public void saveTransaction(Transaction transaction) {
+        Objects.requireNonNull(transaction);
+        transactionList.add(transaction);
+    }
+
 }
