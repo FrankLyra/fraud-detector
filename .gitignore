@@ -16,7 +16,7 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-/data/PS_20174392719_1491204439457_log.csv
+/data/
 
 ### Eclipse ###
 .apt_generated
