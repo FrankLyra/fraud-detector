@@ -27,4 +27,9 @@ public class TransactionMapRepository implements TransactionRepository{
         Objects.requireNonNull(transaction);
         transactionByOriginName.put(transaction.origin().name(), transaction);
     }
+
+    @Override
+    public void saveAll(List<Transaction> transactions) {
+
+    }
 }
